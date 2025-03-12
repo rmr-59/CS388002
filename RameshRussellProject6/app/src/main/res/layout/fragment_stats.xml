@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".StatsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/average"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:text="Average Calories:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationY="40dp"
+        tools:text="Average Calories:" />
+
+    <TextView
+        android:id="@+id/average2"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:text="Minimum Calories:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationY="71dp"
+        tools:text="Minimum Calories:" />
+
+    <TextView
+        android:id="@+id/average3"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:text="Maximum Calories:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationY="102dp"
+        tools:text="Maximum Calories:" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="667dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="16dp"
+        android:text="ADD NEW FOOD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/avg"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationX="300dp"
+        android:translationY="40dp" />
+
+    <TextView
+        android:id="@+id/min"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationX="300dp"
+        android:translationY="71dp" />
+
+    <TextView
+        android:id="@+id/max"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationX="300dp"
+        android:translationY="102dp" />
+
+</FrameLayout>
